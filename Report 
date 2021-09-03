@@ -1,0 +1,31 @@
+Results for the extraLargeArray
+insert 829.127393 ms 
+append 3.657589 ms 
+
+
+Results for the tinyArray
+insert 47.512 μs
+append 89.766 μs
+
+
+Results for the smallArray
+insert 48.192 μs
+append 104.992 μs
+
+
+Results for the mediumArray
+insert 148.15 μs
+append 145.366 μs
+
+
+Results for the largeArray
+insert 6.367468 ms
+append 539.002 μs
+
+
+Not very suprised to find that the tinyArray, smallArray, and mediumArray were the fatest to run. 
+The reason why is because the smaller the number the easier it is to double and 
+this is why the extraLargeArray takes the longest. Another thing to add why the function is a little slower is 
+ because it loops through the nums.length which takes longer than just looping through a certain 
+ number instead.
+
